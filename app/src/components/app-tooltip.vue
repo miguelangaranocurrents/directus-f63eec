@@ -17,6 +17,7 @@ onUnmounted(unwatch);
 		<TooltipPortal>
 			<TooltipContent
 				:id="TOOLTIP_CONTENT_ID"
+				force-mount
 				:side="state.side"
 				:align="state.align"
 				:side-offset="8"
